@@ -6,8 +6,8 @@
 
 First you need to make your challenge visible to others. Yoy can do so by uploading it to one of the free static hosting providers. Below is the list of the most popular ones:
 
--   [Netlify](https://creaditcardaljok.netlify.app/) - recommended
--   [GitHub Solutin](https://github.com/aldijoko/credit-card)
+-   [Live Url](https://aldijoko.github.io/credit-card/) - recommended
+-   [GitHub Solution](https://github.com/aldijoko/credit-card)
 
 
 ### How to submit your solution to WebDeveloperMentor
