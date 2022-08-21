@@ -1,0 +1,181 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Code Pro', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%
+}
+
+.cardCredit {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    border: 1px solid #4a4a4a;
+    border-radius: 15px;
+    background: linear-gradient(to top, #020d3d, #0b2f73, #278993);
+}
+
+.headerCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.bottomCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.textBottom {
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-bottom: 5px;
+}
+
+.numberCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.textCard {
+    font-size: 22px;
+    color: #f6f6f6;
+}
+
+.card {
+        position: relative;
+        display: flex;
+		margin: auto;
+        width: 50%;
+		border: 1px solid #d1d1d1;
+		border-radius: 10px;
+		background-color: white;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formData {
+    padding: 20px 50px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.textForm {
+    padding: 15px 0px;
+}
+.textInput {
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.formExp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.expInput {
+    width: 100%;
+
+}
+
+.expSelect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.cvvForm {
+    width: 100%;
+}
+
+.btnSubmit {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    border: 2px solid #0072fa;
+    border-radius: 10px;
+    background-color: white;
+    color: #0072fa;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background-color: #0072fa;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    font-size: 22px;
+}
+
+input:focus {
+    border: 1px solid #4a4a4a;
+}
+
+select {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    font-size: 22px;
+    outline: none;
+}
+
+select:focus {
+    border: 1px solid #4a4a4a;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+
+    }
+    .cardCredit {
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .card {
+        width: 100%;
+    }
+    .formData {
+        margin-top: 0px;
+        padding: 20px;
+        width: 100%;
+    }
+    .formExp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+  }
